@@ -1,0 +1,13 @@
+def removeDups(self, S):
+	    ##InOrder
+		p=""
+		for i in S:
+		    if i in p:
+		        continue
+		    else:
+		        p=p+i
+        return p
+        ##NotInOrder
+        q="".join(set(S))
+        return q
+	        
