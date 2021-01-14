@@ -1,0 +1,1 @@
+def sort012(arr,n):
