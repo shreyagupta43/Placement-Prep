@@ -10,7 +10,6 @@ def isRotated(s,p):
             return True
     return False
 
-
     #With Space Complexity = O(1)
     def isRotated(s,p):
     n = len(s)
