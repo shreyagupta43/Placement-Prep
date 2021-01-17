@@ -7,6 +7,8 @@ int find_afterSum(long long array[], int n)
     }
     return afSum;
 }
+
+
 int equilibriumPoint(long long a[], int n)
 {
     int bsum=0;
