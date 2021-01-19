@@ -6,6 +6,7 @@ def majorityElement(A,N):
     A.sort()
     if (N==1):
         return A[0]
+        
     for i in range(1,N):
         if(A[i]==Check):
             count= count+1
