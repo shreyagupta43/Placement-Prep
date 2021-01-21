@@ -13,6 +13,7 @@ def majorityElement(A,N):
         else:
             count= 1
             Check=A[i]
+
             
         if (count>MaxCo):
             MaxCo=count
