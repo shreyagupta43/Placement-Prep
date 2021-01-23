@@ -6,9 +6,7 @@ def maxLen(arr, N):
     
     sum = 0
     equalNo = 0
-    
     dict = {}
-    
     for i in range(N):
         sum = sum + arr[i]
         

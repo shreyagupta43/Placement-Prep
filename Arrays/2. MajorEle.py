@@ -18,7 +18,6 @@ def majorityElement(A,N):
         if (count>MaxCo):
             MaxCo=count
             MajorEle=A[i]
-            
             if (MaxCo > (N//2)):
                 return MajorEle
     return -1
