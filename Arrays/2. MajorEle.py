@@ -2,6 +2,8 @@ def majorityElement(A,N):
     lis=[]
     Check=A[0]
     count=1
+
+    
     MaxCo=1
     A.sort()
     if (N==1):
